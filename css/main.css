@@ -2,6 +2,10 @@
   font-family: "Open Sans", arial, sans-serif;
 }
 
+.clear {
+  clear: both;
+}
+
 ul {
   list-style-type: none;
 }
@@ -37,6 +41,37 @@ ul.nav_links img {
   height: 42px;
 }
 
+div.project_image {
+  float: left;
+  height: 17em;
+  width: 17em;
+  border-radius: 50%;
+  background-position: center center;
+  border: .1em solid #999999;
+}
+
+div.project_details {
+  float: left;
+  margin-left: 7%;
+  width: 60%;
+}
+
+div.project_image.release_board {
+  background-image: url('../images/release_board.png');
+}
+
+div.project_image.tyyp {
+  background-image: url('../images/tyyp.png');
+}
+
+div.project_image.odt {
+  background-image: url('../images/odt.png');
+}
+
+div.project_image.arc_calendar {
+  background-image: url('../images/arc_calendar.png');
+}
+
 ul.nav_links img:hover {
   border: 1px solid #eeeeee;
 }
@@ -46,6 +81,11 @@ ul.horizontal li {
   margin-right: 1em;
 }
 
+section#projects > ul {
+  padding: 0 3%;
+}
+
 section#projects  > ul > li {
   border-bottom: .1em solid #CCCCCC;
+  padding: 2em 0;
 }
