@@ -1,0 +1,51 @@
+* {
+  font-family: "Open Sans", arial, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul.bulleted {
+  list-style-type: disc;
+}
+
+p.large {
+  font-size: 1.5em;
+}
+
+ul.bubbles li {
+  display: inline-block;
+  width: 6em;
+  height: 6em;
+  line-height: 6em;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #eeeeee;
+  cursor: pointer;
+}
+
+ul.bubbles li:hover {
+  background-color: #fafafa;
+}
+
+ul.nav_links img {
+  border: 1px solid #ffffff;
+  padding: 5px;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+}
+
+ul.nav_links img:hover {
+  border: 1px solid #eeeeee;
+}
+
+ul.horizontal li {
+  display: inline;
+  margin-right: 1em;
+}
+
+section#projects  > ul > li {
+  border-bottom: .1em solid #CCCCCC;
+}
