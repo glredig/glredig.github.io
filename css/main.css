@@ -22,6 +22,11 @@ a:hover {
   text-decoration: underline;
 }
 
+.secondary_dark {
+  color: #008888;
+  font-weight: bold;
+}
+
 .clear {
   clear: both;
 }
@@ -144,12 +149,15 @@ a.linkedin_icon {
 section#header {
   background-color: #cccccc;
   padding: .7em 1em;
+  height: 10em;
+  border-bottom: .1em solid #999999;  
 }
 
 section#content {
-  background-color: #cccccc;
+  color: #999999;
+  font-style: italic;
   padding: 1em;
-  border-bottom: .1em solid #999999;
+  text-align: center;
 }
 
 section#projects h3 {
@@ -162,5 +170,10 @@ section#projects > ul {
 
 section#projects  > ul > li {
   border-bottom: .1em solid #CCCCCC;
+  border-top: .1em solid #ffffff;
   padding: 2em 0;
+}
+
+section#projects > ul > li:first-child {
+  border-top: none;
 }
