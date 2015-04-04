@@ -72,6 +72,10 @@ div.project_image.arc_calendar {
   background-image: url('../images/arc_calendar.png');
 }
 
+div.project_image.angle_ball {
+  background-image: url('../images/angle_ball.png');
+}
+
 ul.nav_links img:hover {
   border: 1px solid #eeeeee;
 }
