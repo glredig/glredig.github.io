@@ -2,6 +2,26 @@
   font-family: "Open Sans", arial, sans-serif;
 }
 
+body {
+  background-color: #f0f0f0;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1em;
+}
+
+a {
+  color: #009090;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .clear {
   clear: both;
 }
@@ -18,19 +38,28 @@ p.large {
   font-size: 1.5em;
 }
 
-ul.bubbles li {
-  display: inline-block;
-  width: 6em;
-  height: 6em;
-  line-height: 6em;
-  text-align: center;
-  border-radius: 50%;
-  border: 1px solid #eeeeee;
-  cursor: pointer;
+ul.bubbles {
+  float: right;
 }
 
-ul.bubbles li:hover {
-  background-color: #fafafa;
+ul.bubbles li {
+  background-color: #f0f0f0;
+  display: inline-block;
+  width: 6em;
+  height: 3em;
+  line-height: 3em;
+  text-align: center;
+  border-radius: 5%;
+  border: 1px solid #dddddd;
+  cursor: pointer;
+  margin-right: 1em;
+}
+
+ul.bubbles li:hover,
+ul.bubbles li.selected {
+  background-color: #006666;
+  border-color: #004444;
+  color: #ffffff;
 }
 
 ul.nav_links img {
@@ -92,12 +121,26 @@ a.view_on_github {
   height: 32px;
   border-radius: 50%;
 }
+section#header {
+  background-color: #cccccc;
+  padding: 1em;
+}
+
+section#content {
+  background-color: #cccccc;
+  padding: 1em;
+  border-bottom: .1em solid #999999;
+}
+
+section#projects h3 {
+  color: #004444;
+}
 
 section#projects > ul {
   padding: 0 3%;
 }
 
 section#projects  > ul > li {
-  border-bottom: .1em solid #CCCCCC;
+  border-top: .1em solid #CCCCCC;
   padding: 2em 0;
 }
