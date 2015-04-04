@@ -62,6 +62,11 @@ ul.bubbles li.selected {
   color: #ffffff;
 }
 
+ul.nav_links {
+  float: right;
+  margin-top: 0;
+}
+
 ul.nav_links img {
   border: 1px solid #ffffff;
   padding: 5px;
@@ -110,7 +115,7 @@ ul.nav_links img:hover {
 }
 
 ul.horizontal li {
-  display: inline;
+  display: inline-block;
   margin-right: 1em;
 }
 
@@ -121,9 +126,24 @@ a.view_on_github {
   height: 32px;
   border-radius: 50%;
 }
+
+a.github_icon {
+  display: block;
+  height: 32px;
+  width: 32px;
+  background-image: url('../images/GitHub-Mark-Light-32px.png');
+}
+
+a.linkedin_icon {
+  display: block;
+  height: 34px;
+  width: 34px;
+  background-image: url('../images/In-White-34px-TM.png');
+}
+
 section#header {
   background-color: #cccccc;
-  padding: 1em;
+  padding: .7em 1em;
 }
 
 section#content {
@@ -141,6 +161,6 @@ section#projects > ul {
 }
 
 section#projects  > ul > li {
-  border-top: .1em solid #CCCCCC;
+  border-bottom: .1em solid #CCCCCC;
   padding: 2em 0;
 }
