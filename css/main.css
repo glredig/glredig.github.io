@@ -85,6 +85,14 @@ ul.horizontal li {
   margin-right: 1em;
 }
 
+a.view_on_github {
+  display: inline-block;
+  background-image: url('../images/GitHub-Mark-32px.png');
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
 section#projects > ul {
   padding: 0 3%;
 }
