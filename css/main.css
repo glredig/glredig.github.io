@@ -148,9 +148,24 @@ a.linkedin_icon {
 
 section#header {
   background-color: #cccccc;
+  background-image: url('../images/redwoods.gif');
+  background-size: 100% auto;
+  background-position: 0 35%;
+  background-repeat: no-repeat;
   padding: .7em 1em;
-  height: 10em;
-  border-bottom: .1em solid #999999;  
+  height: 25em;
+  border-bottom: .1em solid #999999; 
+  color: #ffffff; 
+}
+
+section#header h1 {
+  margin: 0;
+  font-size: 3em;
+}
+
+section#header h3 {
+  margin: .3em;
+  font-style: italic;
 }
 
 section#content {
