@@ -93,6 +93,10 @@ div.project_details {
   float: left;
   margin-left: 7%;
   width: 60%;
+  background-color: #f5fafb;
+  border: .1em solid #dddddd;
+  border-radius: .3em;
+  padding: 0 1em;
 }
 
 div.project_image.release_board {
@@ -161,6 +165,8 @@ section#header {
 section#header h1 {
   margin: 0;
   font-size: 3em;
+  font-variant: small-caps;
+  letter-spacing: .2em;
 }
 
 section#header h3 {
