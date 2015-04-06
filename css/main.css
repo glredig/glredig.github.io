@@ -163,14 +163,14 @@ section#header {
 }
 
 section#header h1 {
-  margin: 0;
+  margin: -.32em 0 .2em;
   font-size: 3em;
   font-variant: small-caps;
   letter-spacing: .2em;
 }
 
 section#header h3 {
-  margin: .3em;
+  margin: .3em 0;
   font-style: italic;
 }
 
