@@ -441,5 +441,5 @@ var arc_calendar = (function() {
   }  
 })();
 
-arc_calendar.init({ container: document.getElementById('calendar') }) 
+arc_calendar.init({ container: document.getElementById('calendar'), url: document.getElementById('calendar').getAttribute("data-url") }) 
 
