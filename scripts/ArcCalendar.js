@@ -441,5 +441,9 @@ var arc_calendar = (function() {
   }  
 })();
 
-arc_calendar.init({ container: document.getElementById('calendar'), url: document.getElementById('calendar').getAttribute("data-url") }) 
+arc_calendar.init({ 
+  container: document.getElementById('calendar'), 
+  url: document.getElementById('calendar').getAttribute("data-url"),
+  event_types: ['Public', 'Private', 'Unavailable', 'Available'] 
+}); 
 
