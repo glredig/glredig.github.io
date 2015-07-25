@@ -9,5 +9,16 @@
   <div id="slideshow" data-url="slides.json">
   </div>
   <script src="./scripts/slideshow.js"></script>
+  <script>
+    if ($('#slideshow').length) {
+      var $slides_wrapper = $('#slideshow'),
+          url = $slides_wrapper.attr('data-url');
+
+      SlideShow.init({
+        wrapper: ($slides_wrapper)[0],
+        url: url
+      })
+    }
+  </script>
 </body>
 </html>

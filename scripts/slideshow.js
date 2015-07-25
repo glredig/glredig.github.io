@@ -28,7 +28,6 @@ var SlideShow = (function() {
     var i = 0,
         slide;
 
-    console.log("data", data);
     for (i; i < data.length; i++) {
       slide = new Slide({
         url: data[i].slide_image.slideshow.url,
