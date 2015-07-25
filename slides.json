@@ -1,0 +1,5 @@
+[
+{"id":1,"summary":"This is a sample summary phrase","caption":"by Somebody Something","slide_image":{"slideshow":{"url":"https://blackbirdband.s3.amazonaws.com/uploads/slide/slide_image/1/slideshow_Olympics13.jpg"}},"label_placement":0,"position":null,"publish":true},
+{"id":2,"summary":"This is another sample summary","caption":"by Another Guy","slide_image":{"slideshow":{"url":"https://blackbirdband.s3.amazonaws.com/uploads/slide/slide_image/2/slideshow_Splash2048_1536.jpg"}},"label_placement":0,"position":null,"publish":true},
+{"id":3,"summary":"This is the third summary","caption":"by Cool Person","slide_image":{"slideshow":{"url":"https://blackbirdband.s3.amazonaws.com/uploads/slide/slide_image/1/slideshow_Olympics13.jpg"}},"label_placement":0,"position":null,"publish":true}
+]
