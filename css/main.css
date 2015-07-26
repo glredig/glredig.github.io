@@ -115,6 +115,11 @@ div.project_image.arc_calendar {
   background-image: url('../images/arc_calendar.png');
 }
 
+div.project_image.slideshow {
+  background-image: url('../images/slideshow.png');
+  background-position: -250px -200px;
+}
+
 div.project_image.angle_ball {
   background-image: url('../images/angle_ball.png');
 }
