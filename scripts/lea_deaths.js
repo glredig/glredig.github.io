@@ -1,5 +1,5 @@
 (function() {
-  var data = d3.csv("./leoka-summary-kills.csv", function (data) {
+  var data = d3.csv("../data/leoka-summary-kills.csv", function (data) {
     data.forEach(function(d) {
       d['year'] = +d['year'];
       d['kills'] = +d['kills'];
