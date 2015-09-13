@@ -18,7 +18,7 @@
     var height = total_height - margins.top - margins.bottom;
     var width = total_width - margins.left - margins.right;
     
-    var svg = d3.select('#area_chart').append('svg')
+    var svg = d3.select('#line_chart').append('svg')
       .attr('width', total_width)
       .attr('height', total_height);
 
@@ -298,5 +298,4 @@
       .style('fill', '#4ca3bd')
       .text('accidental')      
   });
-
 })();
